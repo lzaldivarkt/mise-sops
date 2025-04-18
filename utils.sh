@@ -21,7 +21,7 @@ min_version() {
 }
 
 sops_bin() {
-  "${MISE_INSTALL_PATH}/bin/sops" "$@"
+  "${MISE_INSTALL_PATH}/sops" "$@"
 }
 
 sops_env() {
